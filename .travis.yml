@@ -5,6 +5,6 @@ go:
   - 1.7.5
 before_install:
   - sudo apt-get update
-  - sudo apt-get install -y linux-generic linux-image-generic linux-headers-generic linux-signed-generic virtualbox --fix-missing
+  - sudo apt-get install -y linux-headers-generic virtualbox --fix-missing
 script:
   - true
