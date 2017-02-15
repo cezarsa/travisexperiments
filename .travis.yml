@@ -6,7 +6,6 @@ go:
 before_install:
   - sudo apt-get update
   - sudo apt-get install -y linux-headers-generic linux-headers-$(uname -r)
-  - sudo apt-get install virtualbox --fix-missing
   - wget https://github.com/tsuru/tsuru-client/releases/download/1.1.1/tsuru-1.1.1-linux_amd64.tar.gz
   - tar -zxpvf tsuru-1.1.1-linux_amd64.tar.gz
   - wget http://download.virtualbox.org/virtualbox/5.1.14/virtualbox-5.1_5.1.14-112924~Ubuntu~precise_amd64.deb
