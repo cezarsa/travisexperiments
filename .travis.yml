@@ -1,0 +1,13 @@
+language: go
+sudo: required
+install: true
+go:
+  - 1.7.5
+addons:
+  apt:
+    packages:
+      - virtualbox
+before_install:
+  - true
+script:
+  - true
